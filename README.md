@@ -17,11 +17,8 @@ In the example above, `%d` and `%.2f` are format specifiers, while `x` and `pi` 
 Here's a simple example that demonstrates the usage of the `Printf Replicator` program:
 
 #include <stdio.h>
-
 int main(void) 
-
 {
-
     int age = 25;
 
     float height = 1.75;
@@ -29,7 +26,6 @@ int main(void)
     _printf("My age is %d and my height is %.2f meters.", age, height);
 
     return (0);
-
 }
 
 Output:
