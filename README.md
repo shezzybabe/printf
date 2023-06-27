@@ -15,17 +15,28 @@ _printf("The value of x is %d and the value of pi is %.2f", x, pi);
 In the example above, `%d` and `%.2f` are format specifiers, while `x` and `pi` are the corresponding parameters.
 ## Example
 Here's a simple example that demonstrates the usage of the `Printf Replicator` program:
+
 #include <stdio.h>
+
 int main(void) 
+
 {
+
     int age = 25;
+
     float height = 1.75;
+
     _printf("My age is %d and my height is %.2f meters.", age, height);
+
     return (0);
+
 }
+
 Output:
-My age is 25 and my height is 1.75 meters.
+
+	My age is 25 and my height is 1.75 meters.
 ## Authors
 Sharon Seekoei: sharonlesegoseekoei@gmail.com
+
 Ismael Mohammed: Ismael.mdev@gmail.com
 
