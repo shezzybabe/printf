@@ -42,7 +42,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			print_buffer(buffer, &buff_ind);
+			_print_buffer(buffer, &buff_ind);
 			flags = _flags(format, &i);
 			width = _width(format, &i, list);
 			precision = _precision(format, &i, list);

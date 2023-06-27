@@ -135,7 +135,7 @@ int _print_hexa(va_list types, char map_to[], char buffer[],
 
 	UNUSED(width);
 
-	num = convert_size_unsgnd(num, size);
+	num = _convert_size_unsgnd(num, size);
 
 	if (num == 0)
 		buffer[i--] = '0';
